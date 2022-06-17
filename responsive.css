@@ -1,0 +1,212 @@
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 0;
+        padding: 0px;
+    }
+
+    header {
+        height: auto;
+        position: relative;
+        width: 100%;
+    }
+
+    .header-container {
+
+        display: block;
+        padding: 0px;
+    }
+
+    .nav-section nav a {
+        display: block;
+        margin-left: 3%;
+
+
+    }
+
+    header .nav-section nav {
+        margin-right: 0px;
+        width: 100%;
+        background-color: #282B38;
+
+
+    }
+
+    .nav-section {
+        background-color: #282B38;
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+        transition: 0.4s;
+
+    }
+
+    .nav-section-open {
+        height: auto;
+        overflow: auto;
+        transition: 0.4s;
+    }
+
+    header .nav-section .logo {
+        padding-left: 50px;
+    }
+
+    .header-container .inner-section-child1 {
+        height: 420px;
+        width: 100%;
+
+        margin-left: 0px;
+    }
+
+    .header-container .inner-section-child1 .image-container img {
+        max-width: 300px;
+    }
+
+    .header-container .inner-section-child1 .image-container .inner-counter-section1 #counter,
+    .header-container .inner-section-child1 .image-container .inner-counter-section3 #counter1 {
+
+        font-size: 40px;
+
+    }
+
+    .header-container .inner-section-child1 .image-container .inner-counter-section1 h2 {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .header-container .inner-section-child1 .image-container .inner-counter-section3 h2 {
+        font-size: 16px;
+    }
+
+    .header-container .inner-section-child1 .image-container .inner-counter-section2 h2 {
+        font-size: 20px;
+        margin-left: -25px;
+    }
+
+    .innner-section-child2 {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .innner-section-child2 h1,
+    .innner-section-child2 p {
+        padding: 30px;
+    }
+
+    .innner-section-child2 .button-section {
+        display: block;
+        padding: 30px;
+    }
+
+    .middle-section .middle-secton-textcontent p {
+
+        width: 100%;
+
+    }
+
+    .middle-section .image-display-section {
+        display: block;
+        padding: 150px 30px;
+    }
+
+    .middle-section .image-display-section .section-mobile-apps,
+    .middle-section .image-display-section .section-web-apps {
+        width: 100%;
+        margin-top: 30px;
+
+
+    }
+
+    #image img {
+        position: absolute;
+        top: -150px;
+        margin-right: 100px;
+        width: 100%;
+
+
+    }
+
+    #image2 img {
+
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+
+    }
+
+    .inner-section {
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+
+
+    }
+
+    .inner-section h2 {
+
+        font-size: 18px;
+
+
+    }
+
+    #counterapps,
+    #counterapps2 {
+        font-size: 50px;
+    }
+
+    .recentworks .text-container p {
+
+        width: 100%;
+
+    }
+
+    #see-more-btn button {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        float: left;
+    }
+
+    .skill-section .skill-section-child {
+
+        width: 100%;
+        padding: 30px;
+
+
+
+    }
+
+    .skill-section .element-content {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        gap: 20px 10px;
+    }
+
+    .blog .blog-article-section .blog-article {
+        width: 100%;
+
+
+    }
+
+    .search-bar-section h2 {
+        width: 100%;
+    }
+
+    #input-section button {
+
+        padding: 10px 50px;
+
+
+    }
+
+    .container-toggle {
+        display: inline-block;
+    }
+
+    header .nav-section nav #active {
+        background-color: #282B38;
+
+    }
+
+
+}
